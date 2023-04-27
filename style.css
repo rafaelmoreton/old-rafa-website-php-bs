@@ -1,0 +1,18 @@
+:root {
+    --light: #6E85B2;
+    --medium: #3E2C41;
+    --dark: #3E2C41;
+    --darker: #261C2C;
+}
+
+.light {
+    background-color: var(--light);
+}
+
+.dark {
+    background-color: var(--dark);
+}
+
+.scaffold {
+    height: 100vh;
+}
