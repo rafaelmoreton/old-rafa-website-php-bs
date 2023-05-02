@@ -1,5 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+          <?php
+            if (!isset($_GET['langID']))
+              $lang = 'en';
+            else
+              $lang = $_GET['langID'];
+            include('locale/'. $lang . '.php');
+          ?>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -42,17 +49,13 @@
                     <h1 class="text-center">
                         Rafael Moreton
                     </h1>
-                    <img src="src/html-5.svg" alt="html-5 logo">
-                    <img src="src/javascript.svg" alt="javascript logo">
-                    <img src="src/css-3.svg" alt="css-3 logo">
-                    <img src="src/ruby.svg" alt="ruby logo">
-                    <img src="src/rails.svg" alt="rails logo">
-                    <img src="src/git-icon.svg" alt="git-icon logo">
                 </div>
             </div>
         </div>
     </header>
-    <div style="font-size: 8rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dicta voluptatem officia illum quas sed dolores eveniet eaque quasi laudantium, dolor autem suscipit vero facilis maxime eligendi eum nemo non.</div>
+    <div>
+      <?php echo $langArray['chess-project-description'];?>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
