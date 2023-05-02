@@ -53,58 +53,58 @@
             </div>
         </div>
     </header>
-    <div class="container">
+    <section class="container">
       <h1>Projects</h1>
-      <div>
+      <article>
         <h2>CLI Chess</h2>
         <p>
           <?php echo $langArray['chess-project-description'];?>
         </p>
         <div>Placeholder</div>
-      </div>
-      <div>
+      </article>
+      <article>
         <h2>Flight Booker</h2>
         <p>
           <?php echo $langArray['flight-project-description'];?>
         </p>
         <div>Placeholder</div>
-      </div>
-      <div>
+      </article>
+      <article>
         <h2>Private Events</h2>
         <p>
           <?php echo $langArray['events-project-description'];?>
         </p>
         <div>Placeholder</div>
-      </div>
-      <div>
+      </article>
+      <article>
         <h2>Etch-a-Sketch</h2>
         <p>
           <?php echo $langArray['sketch-project-description'];?>
         </p>
         <div>Placeholder</div>
-      </div>
-      <div>
+      </article>
+      <article>
         <h2>Connect Four</h2>
         <p>
           <?php echo $langArray['connect-project-description'];?>
         </p>
         <div>Placeholder</div>
-      </div>
-      <div>
+      </article>
+      <article>
         <h2>Admin Dashboard</h2>
         <p>
           <?php echo $langArray['dashboard-project-description'];?>
         </p>
         <div>Placeholder</div>
-      </div>
-      <div>
+      </article>
+      <article>
         <h2>Calculator</h2>
         <p>
           <?php echo $langArray['calculator-project-description'];?>
         </p>
         <div>Placeholder</div>
-      </div>
-    </div>
+      </article>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
