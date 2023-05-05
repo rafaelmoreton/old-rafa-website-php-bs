@@ -49,7 +49,9 @@
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <h1 class="text-center">
-                        Rafael Moreton
+                        Rafael Moreton<span class="visually-hidden">:</span>
+                        <br>
+                        <strong>Full Stack Web Developer</strong>
                     </h1>
                 </div>
             </div>
