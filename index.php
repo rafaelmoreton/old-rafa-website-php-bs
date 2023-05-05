@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+          <!-- -----LOCALIZATION----- -->
           <?php
             if (!isset($_GET['langID']))
               $lang = 'en';
@@ -42,6 +43,7 @@
             </div>
           </div>
     </nav>
+
     <header class="scaffold">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
@@ -53,8 +55,12 @@
             </div>
         </div>
     </header>
+
+    <!-- -----PROJECTS----- -->
     <section class="container">
-      <h1>Projects</h1>
+      <h1>
+        <?php echo $langArray['projects'] ;?>
+      </h1>
       <article>
         <h2>CLI Chess</h2>
         <p>
@@ -105,6 +111,204 @@
         <div>Placeholder</div>
       </article>
     </section>
+
+    <!-- -----ABOUT----- -->
+    <section class="container">
+      <h1>
+        <?php echo $langArray['about'] ;?>
+      </h1>
+      <p>
+        <?php echo $langArray['about-p1'] ;?>
+      </p>
+      <p>
+        <?php echo $langArray['about-p2'] ;?>
+      </p>
+      <p>
+        <?php echo $langArray['about-p3'] ;?>
+      </p>
+      <p>
+        <?php echo $langArray['about-p4'] ;?>
+      </p>
+    </section>
+
+    <!-- -----RESUME----- -->
+    <section class="container">
+      <h1>
+        <?php echo $langArray['resume'] ;?>
+      </h1>
+      <div>
+        <h2>
+          <?php echo $langArray['summary'] ;?>
+        </h2>
+        <p>
+          <?php echo $langArray['summary-p'] ;?>
+        </p>
+      </div>
+      <div>
+        <h2>
+          <?php echo $langArray['experience'] ;?>
+        </h2>
+        <h3>
+          <?php echo $langArray['light-tech'] ;?>
+        </h3>
+          <p>
+            <?php echo $langArray['light-tech-subhead'] ;?>
+          </p>
+          <ul>
+              <li>
+                <?php echo $langArray['light-tech-info-1'] ;?>
+              </li>
+              <li>
+                <?php echo $langArray['light-tech-info-2'] ;?>
+              </li>
+              <li>
+                <?php echo $langArray['light-tech-info-3'] ;?>
+              </li>
+              <li>
+                <?php echo $langArray['light-tech-info-4'] ;?>
+              </li>
+          </ul>
+          <h3>
+            <?php echo $langArray['performer'] ;?>
+          </h3>
+          <p>
+            <?php echo $langArray['performer-subhead'] ;?>
+          </p>
+          <ul>
+              <li>
+                <?php echo $langArray['performer-info-1'] ;?>
+              </li>
+              <li>
+                <?php echo $langArray['performer-info-2'] ;?>
+              </li>
+          </ul>
+          <h3>
+            <?php echo $langArray['mech-tech'] ;?>
+          </h3>
+          <p>
+            <?php echo $langArray['mech-tech-subhead'] ;?>
+          </p>
+          <ul>
+              <li>
+                <?php echo $langArray['mech-tech-info-1'] ;?>
+              </li>
+              <li>
+                <?php echo $langArray['mech-tech-info-2'] ;?>
+              </li>
+              <li>
+                <?php echo $langArray['mech-tech-info-3'] ;?>
+              </li>
+              <li>
+                <?php echo $langArray['mech-tech-info-4'] ;?>
+              </li>
+          </ul>
+      </div>
+      <div>
+        <h2>
+          <?php echo $langArray['education'] ;?>
+        </h2>
+        <h3>
+          <?php echo $langArray['usp'] ;?>
+        </h3>
+        <p>
+          <?php echo $langArray['usp-subhead'] ;?>
+        </p>
+        <p>2013-2020
+          <?php echo $langArray['usp-info'] ;?>
+        </p>
+        <h3>
+          <?php echo $langArray['spteatro'] ;?>
+        </h3>
+        <p>
+          <?php echo $langArray['spteatro-subhead'] ;?>
+        </p>
+        <p>2017</p>
+        <h3>
+          <?php echo $langArray['ifsp'] ;?>
+        </h3>
+        <p>
+          <?php echo $langArray['ifsp-subhead'] ;?>
+        </p>
+        <p>2012</p>
+      </div>
+      <div>
+        <h2>
+          <?php echo $langArray['skills'] ;?>
+        </h2>
+        <ul>
+          <li>HTML5, CSS3</li>
+          <li>JavaScript</li>
+          <li>Ruby / Rspec, Rails</li>
+          <li>SQL</li>
+          <li>Git / Github</li>
+          <li>Heroku</li>
+          <li>TDD</li>
+          <li>OOP</li>
+          <li>
+            <?php echo $langArray['language'] ;?>
+          </li>
+          </ul>
+      </div>
+    </section>
+
+    <!-- -----CONTACT----- -->
+    <section class="container">
+      <h1>
+        <?php echo $langArray['contact'] ;?>
+      </h1>
+      <div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg"
+            width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+          <p>rafaelmoreton@gmail.com</p>
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg"
+            width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+          </svg>
+          <p>
+            <?php echo $langArray['address'] ;?>
+          </p>
+        </div>
+          <a href="mailto:rafaelmoreton@gmail.com">
+            <p>Email</p>
+            <svg xmlns="http://www.w3.org/2000/svg"
+              width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+          </a>
+          <a href="https://github.com/rafaelmoreton">
+            <p>Github</p>
+            <svg xmlns="http://www.w3.org/2000/svg"
+              width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0
+              20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5
+              4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+          </svg>
+          </a>
+          <a href="https://linkedin.com/in/rafael-moreton-baggio-3709b1217">
+            <p>LinkedIn</p>
+            <svg xmlns="http://www.w3.org/2000/svg"
+              width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+      </div>
+    </section>
+
+    <!-- -----BOOTSTRAP----- -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
