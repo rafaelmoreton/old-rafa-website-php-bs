@@ -60,53 +60,53 @@
 
     <!-- -----PROJECTS----- -->
     <section class="container">
-      <h1>
+      <h2>
         <?php echo $langArray['projects'] ;?>
-      </h1>
+      </h2>
       <article>
-        <h2>CLI Chess</h2>
+        <h3>CLI Chess</h3>
         <p>
           <?php echo $langArray['chess-project-description'];?>
         </p>
         <div>Placeholder</div>
       </article>
       <article>
-        <h2>Flight Booker</h2>
+        <h3>Flight Booker</h3>
         <p>
           <?php echo $langArray['flight-project-description'];?>
         </p>
         <div>Placeholder</div>
       </article>
       <article>
-        <h2>Private Events</h2>
+        <h3>Private Events</h3>
         <p>
           <?php echo $langArray['events-project-description'];?>
         </p>
         <div>Placeholder</div>
       </article>
       <article>
-        <h2>Etch-a-Sketch</h2>
+        <h3>Etch-a-Sketch</h3>
         <p>
           <?php echo $langArray['sketch-project-description'];?>
         </p>
         <div>Placeholder</div>
       </article>
       <article>
-        <h2>Connect Four</h2>
+        <h3>Connect Four</h3>
         <p>
           <?php echo $langArray['connect-project-description'];?>
         </p>
         <div>Placeholder</div>
       </article>
       <article>
-        <h2>Admin Dashboard</h2>
+        <h3>Admin Dashboard</h3>
         <p>
           <?php echo $langArray['dashboard-project-description'];?>
         </p>
         <div>Placeholder</div>
       </article>
       <article>
-        <h2>Calculator</h2>
+        <h3>Calculator</h3>
         <p>
           <?php echo $langArray['calculator-project-description'];?>
         </p>
@@ -116,9 +116,9 @@
 
     <!-- -----ABOUT----- -->
     <section class="container">
-      <h1>
+      <h2>
         <?php echo $langArray['about'] ;?>
-      </h1>
+      </h2>
       <p>
         <?php echo $langArray['about-p1'] ;?>
       </p>
@@ -135,24 +135,24 @@
 
     <!-- -----RESUME----- -->
     <section class="container">
-      <h1>
+      <h2>
         <?php echo $langArray['resume'] ;?>
-      </h1>
+      </h2>
       <div>
-        <h2>
+        <h3>
           <?php echo $langArray['summary'] ;?>
-        </h2>
+        </h3>
         <p>
           <?php echo $langArray['summary-p'] ;?>
         </p>
       </div>
       <div>
-        <h2>
-          <?php echo $langArray['experience'] ;?>
-        </h2>
         <h3>
-          <?php echo $langArray['light-tech'] ;?>
+          <?php echo $langArray['experience'] ;?>
         </h3>
+        <h4>
+          <?php echo $langArray['light-tech'] ;?>
+        </h4>
           <p>
             <?php echo $langArray['light-tech-subhead'] ;?>
           </p>
@@ -170,9 +170,9 @@
                 <?php echo $langArray['light-tech-info-4'] ;?>
               </li>
           </ul>
-          <h3>
+          <h4>
             <?php echo $langArray['performer'] ;?>
-          </h3>
+          </h4>
           <p>
             <?php echo $langArray['performer-subhead'] ;?>
           </p>
@@ -184,9 +184,9 @@
                 <?php echo $langArray['performer-info-2'] ;?>
               </li>
           </ul>
-          <h3>
+          <h4>
             <?php echo $langArray['mech-tech'] ;?>
-          </h3>
+          </h4>
           <p>
             <?php echo $langArray['mech-tech-subhead'] ;?>
           </p>
@@ -206,37 +206,37 @@
           </ul>
       </div>
       <div>
-        <h2>
-          <?php echo $langArray['education'] ;?>
-        </h2>
         <h3>
-          <?php echo $langArray['usp'] ;?>
+          <?php echo $langArray['education'] ;?>
         </h3>
+        <h4>
+          <?php echo $langArray['usp'] ;?>
+        </h4>
         <p>
           <?php echo $langArray['usp-subhead'] ;?>
         </p>
         <p>2013-2020
           <?php echo $langArray['usp-info'] ;?>
         </p>
-        <h3>
+        <h4>
           <?php echo $langArray['spteatro'] ;?>
-        </h3>
+        </h4>
         <p>
           <?php echo $langArray['spteatro-subhead'] ;?>
         </p>
         <p>2017</p>
-        <h3>
+        <h4>
           <?php echo $langArray['ifsp'] ;?>
-        </h3>
+        </h4>
         <p>
           <?php echo $langArray['ifsp-subhead'] ;?>
         </p>
         <p>2012</p>
       </div>
       <div>
-        <h2>
+        <h3>
           <?php echo $langArray['skills'] ;?>
-        </h2>
+        </h3>
         <ul>
           <li>HTML5, CSS3</li>
           <li>JavaScript</li>
@@ -255,9 +255,9 @@
 
     <!-- -----CONTACT----- -->
     <section class="container">
-      <h1>
+      <h2>
         <?php echo $langArray['contact'] ;?>
-      </h1>
+      </h2>
       <div>
         <div>
           <svg xmlns="http://www.w3.org/2000/svg"
