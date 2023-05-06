@@ -61,7 +61,7 @@
     <!-- -----PROJECTS----- -->
     <section class="container-fluid custom-bg-dark">
       <div class="container">
-        <h2>
+        <h2 class="pt-3 fw-bold display-2 custom-text-highlight">
           <?php echo $langArray['projects'] ;?>
         </h2>
         <div class="row row-cols-1 row-cols-md-2">
@@ -135,7 +135,7 @@
     <!-- -----ABOUT----- -->
     <section class="container-fluid custom-bg-light">
       <div class="container">
-        <h2>
+        <h2 class="pt-3 fw-bold display-2 custom-text-highlight">
           <?php echo $langArray['about'] ;?>
         </h2>
         <p>
@@ -156,7 +156,7 @@
     <!-- -----RESUME----- -->
     <section class="container-fluid custom-bg-dark">
       <div class="container">
-        <h2>
+        <h2 class="pt-3 fw-bold display-2 custom-text-highlight">
           <?php echo $langArray['resume'] ;?>
         </h2>
         <div>
@@ -278,7 +278,7 @@
     <!-- -----CONTACT----- -->
     <section class="container-fluid custom-bg-light">
       <div class="container">
-        <h2>
+        <h2 class="pt-3 fw-bold display-2 custom-text-highlight">
           <?php echo $langArray['contact'] ;?>
         </h2>
         <div>

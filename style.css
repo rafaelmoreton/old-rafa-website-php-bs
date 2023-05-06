@@ -17,6 +17,10 @@
     background-color: var(--darker);
 }
 
+.custom-text-highlight {
+    color: var(--hightlight);
+}
+
 .scaffold {
     height: 100vh;
 }
