@@ -64,55 +64,71 @@
         <h2>
           <?php echo $langArray['projects'] ;?>
         </h2>
-        <article>
-          <h3>CLI Chess</h3>
-          <p>
-            <?php echo $langArray['chess-project-description'];?>
-          </p>
-          <div>Placeholder</div>
-        </article>
-        <article>
-          <h3>Flight Booker</h3>
-          <p>
-            <?php echo $langArray['flight-project-description'];?>
-          </p>
-          <div>Placeholder</div>
-        </article>
-        <article>
-          <h3>Private Events</h3>
-          <p>
-            <?php echo $langArray['events-project-description'];?>
-          </p>
-          <div>Placeholder</div>
-        </article>
-        <article>
-          <h3>Etch-a-Sketch</h3>
-          <p>
-            <?php echo $langArray['sketch-project-description'];?>
-          </p>
-          <div>Placeholder</div>
-        </article>
-        <article>
-          <h3>Connect Four</h3>
-          <p>
-            <?php echo $langArray['connect-project-description'];?>
-          </p>
-          <div>Placeholder</div>
-        </article>
-        <article>
-          <h3>Admin Dashboard</h3>
-          <p>
-            <?php echo $langArray['dashboard-project-description'];?>
-          </p>
-          <div>Placeholder</div>
-        </article>
-        <article>
-          <h3>Calculator</h3>
-          <p>
-            <?php echo $langArray['calculator-project-description'];?>
-          </p>
-          <div>Placeholder</div>
-        </article>
+        <div class="row row-cols-1 row-cols-md-2">
+          <article class="col p-2">
+            <div class="custom-bg-light">
+              <h3>CLI Chess</h3>
+              <p>
+                <?php echo $langArray['chess-project-description'];?>
+              </p>
+              <div>Placeholder</div>
+            </div>
+          </article>
+          <article class="col p-2">
+            <div class="custom-bg-light">
+              <h3>Flight Booker</h3>
+              <p>
+                <?php echo $langArray['flight-project-description'];?>
+              </p>
+              <div>Placeholder</div>
+            </div>
+          </article>
+          <article class="col p-2">
+            <div class="custom-bg-light">
+              <h3>Private Events</h3>
+              <p>
+                <?php echo $langArray['events-project-description'];?>
+              </p>
+              <div>Placeholder</div>
+            </div>
+          </article>
+          <article class="col p-2">
+            <div class="custom-bg-light">
+              <h3>Etch-a-Sketch</h3>
+              <p>
+                <?php echo $langArray['sketch-project-description'];?>
+              </p>
+              <div>Placeholder</div>
+            </div>
+          </article>
+          <article class="col p-2">
+            <div class="custom-bg-light">
+              <h3>Connect Four</h3>
+              <p>
+                <?php echo $langArray['connect-project-description'];?>
+              </p>
+              <div>Placeholder</div>
+            </div>
+          </article>
+          <article class="col p-2">
+            <div class="custom-bg-light">
+              <h3>Admin Dashboard</h3>
+              <p>
+                <?php echo $langArray['dashboard-project-description'];?>
+              </p>
+              <div>Placeholder</div>
+            </div>
+          </article>
+          <article class="col p-2">
+            <div class="custom-bg-light">
+              <h3>Calculator</h3>
+              <p>
+                <?php echo $langArray['calculator-project-description'];?>
+              </p>
+              <div>Placeholder</div>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
 
