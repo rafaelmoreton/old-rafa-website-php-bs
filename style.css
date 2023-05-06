@@ -5,11 +5,15 @@
     --darker: #261C2C;
 }
 
-.light {
+.custom-bg-light {
     background-color: var(--light);
 }
 
-.dark {
+.custom-bg-medium {
+    background-color: var(--medium);
+}
+
+.custom-bg-dark {
     background-color: var(--dark);
 }
 

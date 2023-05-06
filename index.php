@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg shadow fixed-top navbar-dark dark">
+    <nav class="navbar navbar-expand-lg shadow fixed-top navbar-dark custom-bg-dark">
         <div class="container">
             <a class="navbar-brand" href="#">Rafael Moreton</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,59 +59,61 @@
     </header>
 
     <!-- -----PROJECTS----- -->
-    <section class="container">
-      <h2>
-        <?php echo $langArray['projects'] ;?>
-      </h2>
-      <article>
-        <h3>CLI Chess</h3>
-        <p>
-          <?php echo $langArray['chess-project-description'];?>
-        </p>
-        <div>Placeholder</div>
-      </article>
-      <article>
-        <h3>Flight Booker</h3>
-        <p>
-          <?php echo $langArray['flight-project-description'];?>
-        </p>
-        <div>Placeholder</div>
-      </article>
-      <article>
-        <h3>Private Events</h3>
-        <p>
-          <?php echo $langArray['events-project-description'];?>
-        </p>
-        <div>Placeholder</div>
-      </article>
-      <article>
-        <h3>Etch-a-Sketch</h3>
-        <p>
-          <?php echo $langArray['sketch-project-description'];?>
-        </p>
-        <div>Placeholder</div>
-      </article>
-      <article>
-        <h3>Connect Four</h3>
-        <p>
-          <?php echo $langArray['connect-project-description'];?>
-        </p>
-        <div>Placeholder</div>
-      </article>
-      <article>
-        <h3>Admin Dashboard</h3>
-        <p>
-          <?php echo $langArray['dashboard-project-description'];?>
-        </p>
-        <div>Placeholder</div>
-      </article>
-      <article>
-        <h3>Calculator</h3>
-        <p>
-          <?php echo $langArray['calculator-project-description'];?>
-        </p>
-        <div>Placeholder</div>
-      </article>
+    <section class="container-fluid custom-bg-light">
+      <div class="container">
+        <h2>
+          <?php echo $langArray['projects'] ;?>
+        </h2>
+        <article>
+          <h3>CLI Chess</h3>
+          <p>
+            <?php echo $langArray['chess-project-description'];?>
+          </p>
+          <div>Placeholder</div>
+        </article>
+        <article>
+          <h3>Flight Booker</h3>
+          <p>
+            <?php echo $langArray['flight-project-description'];?>
+          </p>
+          <div>Placeholder</div>
+        </article>
+        <article>
+          <h3>Private Events</h3>
+          <p>
+            <?php echo $langArray['events-project-description'];?>
+          </p>
+          <div>Placeholder</div>
+        </article>
+        <article>
+          <h3>Etch-a-Sketch</h3>
+          <p>
+            <?php echo $langArray['sketch-project-description'];?>
+          </p>
+          <div>Placeholder</div>
+        </article>
+        <article>
+          <h3>Connect Four</h3>
+          <p>
+            <?php echo $langArray['connect-project-description'];?>
+          </p>
+          <div>Placeholder</div>
+        </article>
+        <article>
+          <h3>Admin Dashboard</h3>
+          <p>
+            <?php echo $langArray['dashboard-project-description'];?>
+          </p>
+          <div>Placeholder</div>
+        </article>
+        <article>
+          <h3>Calculator</h3>
+          <p>
+            <?php echo $langArray['calculator-project-description'];?>
+          </p>
+          <div>Placeholder</div>
+        </article>
+      </div>
     </section>
 
     <!-- -----ABOUT----- -->
@@ -134,122 +136,124 @@
     </section>
 
     <!-- -----RESUME----- -->
-    <section class="container">
-      <h2>
-        <?php echo $langArray['resume'] ;?>
-      </h2>
-      <div>
-        <h3>
-          <?php echo $langArray['summary'] ;?>
-        </h3>
-        <p>
-          <?php echo $langArray['summary-p'] ;?>
-        </p>
-      </div>
-      <div>
-        <h3>
-          <?php echo $langArray['experience'] ;?>
-        </h3>
-        <h4>
-          <?php echo $langArray['light-tech'] ;?>
-        </h4>
+    <section class="container-fluid custom-bg-light">
+      <div class="container">
+        <h2>
+          <?php echo $langArray['resume'] ;?>
+        </h2>
+        <div>
+          <h3>
+            <?php echo $langArray['summary'] ;?>
+          </h3>
           <p>
-            <?php echo $langArray['light-tech-subhead'] ;?>
+            <?php echo $langArray['summary-p'] ;?>
           </p>
-          <ul>
-              <li>
-                <?php echo $langArray['light-tech-info-1'] ;?>
-              </li>
-              <li>
-                <?php echo $langArray['light-tech-info-2'] ;?>
-              </li>
-              <li>
-                <?php echo $langArray['light-tech-info-3'] ;?>
-              </li>
-              <li>
-                <?php echo $langArray['light-tech-info-4'] ;?>
-              </li>
-          </ul>
+        </div>
+        <div>
+          <h3>
+            <?php echo $langArray['experience'] ;?>
+          </h3>
           <h4>
-            <?php echo $langArray['performer'] ;?>
+            <?php echo $langArray['light-tech'] ;?>
+          </h4>
+            <p>
+              <?php echo $langArray['light-tech-subhead'] ;?>
+            </p>
+            <ul>
+                <li>
+                  <?php echo $langArray['light-tech-info-1'] ;?>
+                </li>
+                <li>
+                  <?php echo $langArray['light-tech-info-2'] ;?>
+                </li>
+                <li>
+                  <?php echo $langArray['light-tech-info-3'] ;?>
+                </li>
+                <li>
+                  <?php echo $langArray['light-tech-info-4'] ;?>
+                </li>
+            </ul>
+            <h4>
+              <?php echo $langArray['performer'] ;?>
+            </h4>
+            <p>
+              <?php echo $langArray['performer-subhead'] ;?>
+            </p>
+            <ul>
+                <li>
+                  <?php echo $langArray['performer-info-1'] ;?>
+                </li>
+                <li>
+                  <?php echo $langArray['performer-info-2'] ;?>
+                </li>
+            </ul>
+            <h4>
+              <?php echo $langArray['mech-tech'] ;?>
+            </h4>
+            <p>
+              <?php echo $langArray['mech-tech-subhead'] ;?>
+            </p>
+            <ul>
+                <li>
+                  <?php echo $langArray['mech-tech-info-1'] ;?>
+                </li>
+                <li>
+                  <?php echo $langArray['mech-tech-info-2'] ;?>
+                </li>
+                <li>
+                  <?php echo $langArray['mech-tech-info-3'] ;?>
+                </li>
+                <li>
+                  <?php echo $langArray['mech-tech-info-4'] ;?>
+                </li>
+            </ul>
+        </div>
+        <div>
+          <h3>
+            <?php echo $langArray['education'] ;?>
+          </h3>
+          <h4>
+            <?php echo $langArray['usp'] ;?>
           </h4>
           <p>
-            <?php echo $langArray['performer-subhead'] ;?>
+            <?php echo $langArray['usp-subhead'] ;?>
           </p>
-          <ul>
-              <li>
-                <?php echo $langArray['performer-info-1'] ;?>
-              </li>
-              <li>
-                <?php echo $langArray['performer-info-2'] ;?>
-              </li>
-          </ul>
+          <p>2013-2020
+            <?php echo $langArray['usp-info'] ;?>
+          </p>
           <h4>
-            <?php echo $langArray['mech-tech'] ;?>
+            <?php echo $langArray['spteatro'] ;?>
           </h4>
           <p>
-            <?php echo $langArray['mech-tech-subhead'] ;?>
+            <?php echo $langArray['spteatro-subhead'] ;?>
           </p>
+          <p>2017</p>
+          <h4>
+            <?php echo $langArray['ifsp'] ;?>
+          </h4>
+          <p>
+            <?php echo $langArray['ifsp-subhead'] ;?>
+          </p>
+          <p>2012</p>
+        </div>
+        <div>
+          <h3>
+            <?php echo $langArray['skills'] ;?>
+          </h3>
           <ul>
-              <li>
-                <?php echo $langArray['mech-tech-info-1'] ;?>
-              </li>
-              <li>
-                <?php echo $langArray['mech-tech-info-2'] ;?>
-              </li>
-              <li>
-                <?php echo $langArray['mech-tech-info-3'] ;?>
-              </li>
-              <li>
-                <?php echo $langArray['mech-tech-info-4'] ;?>
-              </li>
-          </ul>
-      </div>
-      <div>
-        <h3>
-          <?php echo $langArray['education'] ;?>
-        </h3>
-        <h4>
-          <?php echo $langArray['usp'] ;?>
-        </h4>
-        <p>
-          <?php echo $langArray['usp-subhead'] ;?>
-        </p>
-        <p>2013-2020
-          <?php echo $langArray['usp-info'] ;?>
-        </p>
-        <h4>
-          <?php echo $langArray['spteatro'] ;?>
-        </h4>
-        <p>
-          <?php echo $langArray['spteatro-subhead'] ;?>
-        </p>
-        <p>2017</p>
-        <h4>
-          <?php echo $langArray['ifsp'] ;?>
-        </h4>
-        <p>
-          <?php echo $langArray['ifsp-subhead'] ;?>
-        </p>
-        <p>2012</p>
-      </div>
-      <div>
-        <h3>
-          <?php echo $langArray['skills'] ;?>
-        </h3>
-        <ul>
-          <li>HTML5, CSS3</li>
-          <li>JavaScript</li>
-          <li>Ruby / Rspec, Rails</li>
-          <li>SQL</li>
-          <li>Git / Github</li>
-          <li>Heroku</li>
-          <li>TDD</li>
-          <li>OOP</li>
-          <li>
-            <?php echo $langArray['language'] ;?>
-          </li>
-          </ul>
+            <li>HTML5, CSS3</li>
+            <li>JavaScript</li>
+            <li>Ruby / Rspec, Rails</li>
+            <li>SQL</li>
+            <li>Git / Github</li>
+            <li>Heroku</li>
+            <li>TDD</li>
+            <li>OOP</li>
+            <li>
+              <?php echo $langArray['language'] ;?>
+            </li>
+            </ul>
+        </div>
       </div>
     </section>
 
