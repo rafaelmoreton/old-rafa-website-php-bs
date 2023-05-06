@@ -1,20 +1,20 @@
 :root {
-    --light: #6E85B2;
-    --medium: #3E2C41;
-    --dark: #3E2C41;
-    --darker: #261C2C;
+    --light: rgb(221, 221, 221);
+    --dark: rgb(48, 71, 94);
+    --darker: rgb(34, 40, 49);
+    --hightlight: rgb(240, 84, 84);
 }
 
 .custom-bg-light {
     background-color: var(--light);
 }
 
-.custom-bg-medium {
-    background-color: var(--medium);
-}
-
 .custom-bg-dark {
     background-color: var(--dark);
+}
+
+.custom-bg-darker {
+    background-color: var(--darker);
 }
 
 .scaffold {
