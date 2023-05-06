@@ -66,66 +66,66 @@
         </h2>
         <div class="row row-cols-1 row-cols-md-2">
           <article class="col p-2">
-            <div class="custom-bg-light">
+            <div class="custom-bg-light container h-100 card">
+              <img class="card-image img-fluid" src="./images/demo-chess.png" alt="CLI Chess project image">
               <h3>CLI Chess</h3>
               <p>
                 <?php echo $langArray['chess-project-description'];?>
               </p>
-              <div>Placeholder</div>
             </div>
           </article>
           <article class="col p-2">
-            <div class="custom-bg-light">
+            <div class="custom-bg-light container h-100 card">
+              <img class="card-image img-fluid" src="./images/demo-flight.png" alt="Flight Booker project image">
               <h3>Flight Booker</h3>
               <p>
                 <?php echo $langArray['flight-project-description'];?>
               </p>
-              <div>Placeholder</div>
             </div>
           </article>
           <article class="col p-2">
-            <div class="custom-bg-light">
+            <div class="custom-bg-light container h-100 card">
+              <img class="card-image img-fluid" src="./images/demo-events.png" alt="Private Events project image">
               <h3>Private Events</h3>
               <p>
                 <?php echo $langArray['events-project-description'];?>
               </p>
-              <div>Placeholder</div>
             </div>
           </article>
           <article class="col p-2">
-            <div class="custom-bg-light">
+            <div class="custom-bg-light container h-100 card">
+              <img class="card-image img-fluid" src="./images/demo-sketch.png" alt="Etch-a-Sketch project image">
               <h3>Etch-a-Sketch</h3>
               <p>
                 <?php echo $langArray['sketch-project-description'];?>
               </p>
-              <div>Placeholder</div>
             </div>
           </article>
           <article class="col p-2">
-            <div class="custom-bg-light">
+            <div class="custom-bg-light container h-100 card">
+              <img class="card-image img-fluid" src="./images/demo-connect.png" alt="Connect Four project image">
               <h3>Connect Four</h3>
               <p>
                 <?php echo $langArray['connect-project-description'];?>
               </p>
-              <div>Placeholder</div>
             </div>
           </article>
           <article class="col p-2">
-            <div class="custom-bg-light">
+            <div class="custom-bg-light container h-100 card">
+              <img class="card-image img-fluid" src="./images/demo-admin.png" alt="Admin Dashboard project image">
               <h3>Admin Dashboard</h3>
               <p>
                 <?php echo $langArray['dashboard-project-description'];?>
               </p>
-              <div>Placeholder</div>
             </div>
           </article>
           <article class="col p-2">
-            <div class="custom-bg-light">
+            <div class="custom-bg-light container h-100 card">
+              <img class="card-image img-fluid" src="./images/demo-calculator.png" alt="Calculator project image">
               <h3>Calculator</h3>
               <p>
                 <?php echo $langArray['calculator-project-description'];?>
               </p>
-              <div>Placeholder</div>
             </div>
           </article>
         </div>
