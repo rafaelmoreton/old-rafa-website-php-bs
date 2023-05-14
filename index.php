@@ -28,16 +28,24 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home</a>
+                  <a class="nav-link" href="#projects">
+                    <?php echo $langArray['projects'] ;?>
+                  </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="#about">
+                    <?php echo $langArray['about'] ;?>
+                  </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Services</a>
+                  <a class="nav-link" href="#resume">
+                    <?php echo $langArray['resume'] ;?>
+                  </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="#contact">
+                    <?php echo $langArray['contact'] ;?>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -59,7 +67,7 @@
     </header>
 
     <!-- -----PROJECTS----- -->
-    <section class="container-fluid custom-bg-dark">
+    <section id="projects" class="container-fluid custom-bg-dark">
       <div class="container">
         <h2 class="pt-3 fw-bold display-2 custom-text-highlight">
           <?php echo $langArray['projects'] ;?>
@@ -133,7 +141,7 @@
     </section>
 
     <!-- -----ABOUT----- -->
-    <section class="container-fluid custom-bg-light">
+    <section id="about" class="container-fluid custom-bg-light">
       <div class="container">
         <h2 class="pt-3 fw-bold display-2 custom-text-highlight">
           <?php echo $langArray['about'] ;?>
@@ -154,7 +162,7 @@
     </section>
 
     <!-- -----RESUME----- -->
-    <section class="container-fluid custom-bg-dark">
+    <section id="resume" class="container-fluid custom-bg-dark">
       <div class="container">
         <h2 class="pt-3 fw-bold display-2 custom-text-highlight">
           <?php echo $langArray['resume'] ;?>
@@ -406,7 +414,7 @@
     </section>
 
     <!-- -----CONTACT----- -->
-    <section class="container-fluid custom-bg-light">
+    <section id="contact" class="container-fluid custom-bg-light">
       <div class="container">
         <h2 class="pt-3 fw-bold display-2 custom-text-highlight">
           <?php echo $langArray['contact'] ;?>

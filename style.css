@@ -31,3 +31,7 @@
     object-fit: cover;
     margin-top: calc(var(--bs-gutter-x) * .5);
 }
+
+#projects, #about, #resume, #contact {
+    scroll-margin-top: 3.5rem;
+}
