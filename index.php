@@ -423,14 +423,14 @@
         </h2>
         <div>
           <a href="mailto:rafaelmoreton@gmail.com"
-          class="d-flex gap-2 align-items-center">
+          class="btn btn-primary contact-button mt-1 mb-1">
             <svg xmlns="http://www.w3.org/2000/svg"
               width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
               stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail">
               <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
               <polyline points="22,6 12,13 2,6"></polyline>
             </svg>
-            <p class="m-0">rafaelmoreton@gmail.com</p>
+            <p class="d-inline m-0 ms-1 align-middle">rafaelmoreton@gmail.com</p>
           </a>
             <!-- <a href="https://github.com/rafaelmoreton">
               <p>Github</p>
@@ -443,14 +443,14 @@
             </svg>
             </a> -->
           <a href="https://linkedin.com/in/rafael-moreton-baggio-3709b1217"
-          class="d-flex gap-2 align-items-center">
+          class="btn btn-primary contact-button mt-1 mb-1">
             <svg xmlns="http://www.w3.org/2000/svg"
               width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
               stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
               <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
               <rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle>
             </svg>
-            <p class="m-0">LinkedIn</p>
+            <p class="d-inline m-0 ms-4 align-middle">LinkedIn</p>
           </a>
           <div class="d-flex gap-2 align-items-center justify-content-end">
            <p class="m-0" style="font-size: 0.9em;">

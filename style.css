@@ -35,3 +35,14 @@
 #projects, #about, #resume, #contact {
     scroll-margin-top: 3.5rem;
 }
+
+.contact-button {
+    width: 270px;
+    background-color: var(--darker);
+    border-color: var(--darker);
+}
+
+.contact-button:hover {
+    background-color: var(--hightlight);
+    border-color: var(--hightlight);
+}
