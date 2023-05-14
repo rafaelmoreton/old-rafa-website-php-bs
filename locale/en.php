@@ -1,5 +1,6 @@
 <?php
     $langArray = array(
+        "page-title" => "Rafael Moreton - Full Stack Web Developer",
         "projects" => "Projects",
         "about" => "About me",
         "resume" => "Résumé",
