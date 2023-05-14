@@ -69,9 +69,9 @@
     </header>
 
     <!-- -----PROJECTS----- -->
-    <section id="projects" class="container-fluid custom-bg-dark">
+    <section id="projects" class="pt-3 pb-3 container-fluid custom-bg-dark">
       <div class="container">
-        <h2 class="pt-3 fw-bold display-2 custom-text-highlight">
+        <h2 class="fw-bold display-2 custom-text-highlight">
           <?php echo $langArray['projects'] ;?>
         </h2>
         <div class="row row-cols-1 row-cols-md-2">
@@ -143,9 +143,9 @@
     </section>
 
     <!-- -----ABOUT----- -->
-    <section id="about" class="container-fluid custom-bg-light">
+    <section id="about" class="pt-3 pb-3 container-fluid custom-bg-light">
       <div class="container">
-        <h2 class="pt-3 fw-bold display-2 custom-text-highlight">
+        <h2 class="fw-bold display-2 custom-text-highlight">
           <?php echo $langArray['about'] ;?>
         </h2>
         <p>
@@ -164,9 +164,9 @@
     </section>
 
     <!-- -----RESUME----- -->
-    <section id="resume" class="container-fluid custom-bg-dark">
+    <section id="resume" class="pt-3 pb-3 container-fluid custom-bg-dark">
       <div class="container">
-        <h2 class="pt-3 fw-bold display-2 custom-text-highlight">
+        <h2 class="fw-bold display-2 custom-text-highlight">
           <?php echo $langArray['resume'] ;?>
         </h2>
       </div>
@@ -416,9 +416,9 @@
     </section>
 
     <!-- -----CONTACT----- -->
-    <section id="contact" class="container-fluid custom-bg-light">
+    <section id="contact" class="pt-3 pb-3 container-fluid custom-bg-light">
       <div class="container">
-        <h2 class="pt-3 fw-bold display-2 custom-text-highlight">
+        <h2 class="fw-bold display-2 custom-text-highlight">
           <?php echo $langArray['contact'] ;?>
         </h2>
         <div>
