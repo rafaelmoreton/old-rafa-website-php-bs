@@ -56,7 +56,7 @@
 
     <!-- ################################################################### -->
     <!-- ####################### #-LANDING HEADER ########################## -->
-    <header class="scaffold custom-bg-light">
+    <header class="vh-100 custom-bg-light">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
@@ -79,68 +79,82 @@
         <h2 class="fw-bold display-2 custom-text-highlight">
           <?php echo $langArray['projects'] ;?>
         </h2>
-        <div class="row row-cols-1 row-cols-md-2">
-          <article class="col p-2">
-            <div class="custom-bg-light container h-100 card">
-              <img class="card-image img-fluid" src="./images/demo-chess.png" alt="CLI Chess project image">
-              <h3>CLI Chess</h3>
-              <p>
-                <?php echo $langArray['chess-project-description'];?>
-              </p>
+        <div class="row g-2 row-cols-1 row-cols-xl-2">
+          <article class="card mt-lg-2 custom-bg-dark border-0">
+            <div class="row g-0 h-100">
+              <img class="fit-cover h-200px h-xs-100 col-xs-5 p-0 rounded-top column-to-row-card-start-xs-rounded" src="./images/demo-chess.png" alt="CLI Chess project image">
+              <div class="col-7 rounded-bottom column-to-row-card-end-xs-rounded custom-bg-light card-body">
+                <h3>CLI Chess</h3>
+                <p>
+                  <?php echo $langArray['chess-project-description'];?>
+                </p>
+              </div>
             </div>
           </article>
-          <article class="col p-2">
-            <div class="custom-bg-light container h-100 card">
-              <img class="card-image img-fluid" src="./images/demo-flight.png" alt="Flight Booker project image">
-              <h3>Flight Booker</h3>
-              <p>
-                <?php echo $langArray['flight-project-description'];?>
-              </p>
+          <article class="card custom-bg-dark border-0">
+            <div class="row g-0 h-100">
+              <img class="fit-cover h-200px h-xs-100 col-xs-5 rounded-top column-to-row-card-start-xs-rounded" src="./images/demo-flight.png" alt="Flight Booker project image">
+              <div class="col-7 rounded-bottom column-to-row-card-end-xs-rounded custom-bg-light card-body">
+                <h3>Flight Booker</h3>
+                <p>
+                  <?php echo $langArray['flight-project-description'];?>
+                </p>
+              </div>
             </div>
           </article>
-          <article class="col p-2">
-            <div class="custom-bg-light container h-100 card">
-              <img class="card-image img-fluid" src="./images/demo-events.png" alt="Private Events project image">
-              <h3>Private Events</h3>
-              <p>
-                <?php echo $langArray['events-project-description'];?>
-              </p>
+          <article class="card custom-bg-dark border-0">
+            <div class="row g-0 h-100">
+              <img class="fit-cover h-200px h-xs-100 col-xs-5 rounded-top column-to-row-card-start-xs-rounded" src="./images/demo-events.png" alt="Private Events project image">
+              <div class="col-7 rounded-bottom column-to-row-card-end-xs-rounded custom-bg-light card-body">
+                <h3>Private Events</h3>
+                <p>
+                  <?php echo $langArray['events-project-description'];?>
+                </p>
+              </div>
             </div>
           </article>
-          <article class="col p-2">
-            <div class="custom-bg-light container h-100 card">
-              <img class="card-image img-fluid" src="./images/demo-sketch.png" alt="Etch-a-Sketch project image">
-              <h3>Etch-a-Sketch</h3>
-              <p>
-                <?php echo $langArray['sketch-project-description'];?>
-              </p>
+          <article class="card custom-bg-dark border-0">
+            <div class="row g-0 h-100">
+              <img class="fit-cover h-200px h-xs-100 col-xs-5 rounded-top column-to-row-card-start-xs-rounded" src="./images/demo-sketch.png" alt="Etch-a-Sketch project image">
+              <div class="col-7 rounded-bottom column-to-row-card-end-xs-rounded custom-bg-light card-body">
+                <h3>Etch-a-Sketch</h3>
+                <p>
+                  <?php echo $langArray['sketch-project-description'];?>
+                </p>
+              </div>
             </div>
           </article>
-          <article class="col p-2">
-            <div class="custom-bg-light container h-100 card">
-              <img class="card-image img-fluid" src="./images/demo-connect.png" alt="Connect Four project image">
-              <h3>Connect Four</h3>
-              <p>
-                <?php echo $langArray['connect-project-description'];?>
-              </p>
+          <article class="card custom-bg-dark border-0">
+            <div class="row g-0 h-100">
+              <img class="fit-cover h-200px h-xs-100 col-xs-5 rounded-top column-to-row-card-start-xs-rounded" src="./images/demo-connect.png" alt="Connect Four project image">
+              <div class="col-7 rounded-bottom column-to-row-card-end-xs-rounded custom-bg-light card-body">
+                <h3>Connect Four</h3>
+                <p>
+                  <?php echo $langArray['connect-project-description'];?>
+                </p>
+              </div>
             </div>
           </article>
-          <article class="col p-2">
-            <div class="custom-bg-light container h-100 card">
-              <img class="card-image img-fluid" src="./images/demo-admin.png" alt="Admin Dashboard project image">
-              <h3>Admin Dashboard</h3>
-              <p>
-                <?php echo $langArray['dashboard-project-description'];?>
-              </p>
+          <article class="card custom-bg-dark border-0">
+            <div class="row g-0 h-100">
+              <img class="fit-cover h-200px h-xs-100 col-xs-5 rounded-top column-to-row-card-start-xs-rounded" src="./images/demo-admin.png" alt="Admin Dashboard project image">
+              <div class="col-7 rounded-bottom column-to-row-card-end-xs-rounded custom-bg-light card-body">
+                <h3>Admin Dashboard</h3>
+                <p>
+                  <?php echo $langArray['dashboard-project-description'];?>
+                </p>
+              </div>
             </div>
           </article>
-          <article class="col p-2">
-            <div class="custom-bg-light container h-100 card">
-              <img class="card-image img-fluid" src="./images/demo-calculator.png" alt="Calculator project image">
-              <h3>Calculator</h3>
-              <p>
-                <?php echo $langArray['calculator-project-description'];?>
-              </p>
+          <article class="card mt-2 custom-bg-dark border-0">
+            <div class="row g-0 h-100">
+              <img class="fit-cover h-200px h-xs-100 col-xs-5 rounded-top column-to-row-card-start-xs-rounded" src="./images/demo-calculator.png" alt="Calculator project image">
+              <div class="col-7 rounded-bottom column-to-row-card-end-xs-rounded custom-bg-light card-body">
+                <h3>Calculator</h3>
+                <p>
+                  <?php echo $langArray['calculator-project-description'];?>
+                </p>
+              </div>
             </div>
           </article>
         </div>
