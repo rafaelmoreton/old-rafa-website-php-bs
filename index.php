@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <!-- ################################################################### -->
+    <!-- ########################### #-NAVBAR ############################## -->
     <nav class="navbar navbar-expand-lg shadow fixed-top navbar-dark custom-bg-dark">
         <div class="container">
             <a class="navbar-brand" href="#">Rafael Moreton</a>
@@ -52,6 +54,8 @@
           </div>
     </nav>
 
+    <!-- ################################################################### -->
+    <!-- ####################### #-LANDING HEADER ########################## -->
     <header class="scaffold custom-bg-light">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
@@ -68,7 +72,8 @@
         </div>
     </header>
 
-    <!-- -----PROJECTS----- -->
+    <!-- ################################################################### -->
+    <!-- ########################### #-PROJECTS ############################ -->
     <section id="projects" class="pt-3 pb-3 container-fluid custom-bg-dark">
       <div class="container">
         <h2 class="fw-bold display-2 custom-text-highlight">
@@ -142,7 +147,8 @@
       </div>
     </section>
 
-    <!-- -----ABOUT----- -->
+    <!-- ################################################################### -->
+    <!-- ############################ #-ABOUT ############################## -->
     <section id="about" class="pt-3 pb-3 container-fluid custom-bg-light">
       <div class="container">
         <h2 class="fw-bold display-2 custom-text-highlight">
@@ -163,7 +169,8 @@
       </div>
     </section>
 
-    <!-- -----RESUME----- -->
+    <!-- ################################################################### -->
+    <!-- ########################### #-RESUME ############################## -->
     <section id="resume" class="pt-3 pb-3 container-fluid custom-bg-dark">
       <div class="container">
         <h2 class="fw-bold display-2 custom-text-highlight">
@@ -415,7 +422,8 @@
       </div>
     </section>
 
-    <!-- -----CONTACT----- -->
+    <!-- ################################################################### -->
+    <!-- ########################### #-CONTACT ############################# -->
     <section id="contact" class="pt-3 pb-3 container-fluid custom-bg-light">
       <div class="container">
         <h2 class="fw-bold display-2 custom-text-highlight">
@@ -468,7 +476,11 @@
       </div>
     </section>
 
-    <!-- -----BOOTSTRAP----- -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <!-- ################################################################### -->
+    <!-- ################################################################### -->
+
+    <!-- ##### BOOTSTRAP ##### -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+    </script>
 </body>
 </html>
